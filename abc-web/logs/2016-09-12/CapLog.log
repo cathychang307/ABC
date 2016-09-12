@@ -1,0 +1,200 @@
+2016-09-12 16:53:56,795 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/admin/remind_Page
+2016-09-12 16:53:56,797 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/admin/remind
+2016-09-12 16:53:56,797 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/admin/userSet
+2016-09-12 16:53:56,797 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/batch/jobexecution
+2016-09-12 16:53:56,798 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/batch/jobs
+2016-09-12 16:53:56,798 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/batch/schedule
+2016-09-12 16:53:56,798 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/common/calendar
+2016-09-12 16:53:56,798 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/def
+2016-09-12 16:53:56,799 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/division/conditionMnt_Page
+2016-09-12 16:53:56,799 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/division/conditionMnt
+2016-09-12 16:53:56,799 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/division/factorMnt_Page
+2016-09-12 16:53:56,800 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/division/factorMnt
+2016-09-12 16:53:56,800 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/division/ruleTbMnt_Page
+2016-09-12 16:53:56,800 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/division/ruleTbMnt
+2016-09-12 16:53:56,800 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/login
+2016-09-12 16:53:56,801 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/messages
+2016-09-12 16:53:56,801 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/sample/fileUpdDwn
+2016-09-12 16:53:56,802 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/sample/webSocket
+2016-09-12 16:53:56,802 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/captcha
+2016-09-12 16:53:56,802 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/codetype
+2016-09-12 16:53:56,802 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/department
+2016-09-12 16:53:56,803 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/errorCode
+2016-09-12 16:53:56,803 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/funcSet_Page
+2016-09-12 16:53:56,803 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/funcSet
+2016-09-12 16:53:56,803 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/pwdpolicy
+2016-09-12 16:53:56,804 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/roleSet_Page
+2016-09-12 16:53:56,804 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/roleSet
+2016-09-12 16:53:56,804 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/sequence
+2016-09-12 16:53:56,804 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/system/sysparm
+2016-09-12 16:53:56,804 [main] [] |  |  | eResourceBundleMessageSource [DEBUG] set message path:classpath:/i18n/view
+2016-09-12 16:54:00,483 [main] [] |  |  | SQL                          [DEBUG] 
+    select
+        TOP(?) errorcode0_.oid as oid1_2_,
+        errorcode0_.code as code2_2_,
+        errorcode0_.helpURL as helpURL3_2_,
+        errorcode0_.lastModifyBy as lastModi4_2_,
+        errorcode0_.lastModifyTime as lastModi5_2_,
+        errorcode0_.locale as locale6_2_,
+        errorcode0_.message as message7_2_,
+        errorcode0_.sendMon as sendMon8_2_,
+        errorcode0_.severity as severity9_2_,
+        errorcode0_.suggestion as suggest10_2_,
+        errorcode0_.sysId as sysId11_2_ 
+    from
+        dbo.CFG_ErrorCode errorcode0_ 
+    where
+        1=1 
+    order by
+        errorcode0_.code asc
+2016-09-12 16:54:00,534 [main] [] |  |  | ErrorCodeServiceImpl         [INFO ] [reload] ErrorCodeCache size=0 
+2016-09-12 16:54:00,535 [main] [] |  |  | ErrorCodeServiceImpl         [INFO ] [reload] Heap Usage: Committed=422->456 MB, Init=256->256 MB, Max=3641->3641 MB, Used=250->41=-209 MB 
+2016-09-12 16:54:00,535 [main] [] |  |  | ErrorCodeServiceImpl         [INFO ] [reload] TOTAL COST= 363 ms 
+2016-09-12 16:54:01,105 [main] [] |  |  | CapNamedJdbcTemplate         [TRACE] SqlId=batchSch.findByHost
+	select * from BAH_SCHEDULE where exeHost in ('localhost') 
+2016-09-12 16:54:01,122 [main] [] |  |  | CapNamedJdbcTemplate         [INFO ] CapNamedJdbcTemplate spend 16 ms
+2016-09-12 16:54:01,127 [main] [] |  |  | HibernateJpaDialect          [WARN ] JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+2016-09-12 16:54:01,305 [main] [] |  |  | InternalLoggerFactory        [DEBUG] Using SLF4J as the default logging framework
+2016-09-12 16:54:01,315 [main] [] |  |  | PlatformDependent0           [DEBUG] java.nio.Buffer.address: available
+2016-09-12 16:54:01,315 [main] [] |  |  | PlatformDependent0           [DEBUG] sun.misc.Unsafe.theUnsafe: available
+2016-09-12 16:54:01,315 [main] [] |  |  | PlatformDependent0           [DEBUG] sun.misc.Unsafe.copyMemory: available
+2016-09-12 16:54:01,316 [main] [] |  |  | PlatformDependent0           [DEBUG] java.nio.Bits.unaligned: true
+2016-09-12 16:54:01,317 [main] [] |  |  | PlatformDependent            [DEBUG] Java version: 8
+2016-09-12 16:54:01,317 [main] [] |  |  | PlatformDependent            [DEBUG] -Dio.netty.noUnsafe: false
+2016-09-12 16:54:01,317 [main] [] |  |  | PlatformDependent            [DEBUG] sun.misc.Unsafe: available
+2016-09-12 16:54:01,317 [main] [] |  |  | PlatformDependent            [DEBUG] -Dio.netty.noJavassist: false
+2016-09-12 16:54:01,371 [main] [] |  |  | PlatformDependent            [DEBUG] Javassist: available
+2016-09-12 16:54:01,371 [main] [] |  |  | PlatformDependent            [DEBUG] -Dio.netty.tmpdir: /var/folders/2j/0t5kjm8x1_q9rrw0gndy4psr0000gn/T (java.io.tmpdir)
+2016-09-12 16:54:01,372 [main] [] |  |  | PlatformDependent            [DEBUG] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-12 16:54:01,372 [main] [] |  |  | PlatformDependent            [DEBUG] -Dio.netty.noPreferDirect: false
+2016-09-12 16:54:01,382 [main] [] |  |  | ZlibCodecFactory             [DEBUG] -Dio.netty.noJdkZlibDecoder: false
+2016-09-12 16:54:01,382 [main] [] |  |  | ZlibCodecFactory             [DEBUG] -Dio.netty.noJdkZlibEncoder: false
+2016-09-12 16:54:01,388 [main] [] |  |  | ResourceLeakDetector         [DEBUG] -Dio.netty.leakDetection.level: simple
+2016-09-12 16:54:01,388 [main] [] |  |  | ResourceLeakDetector         [DEBUG] -Dio.netty.leakDetection.maxRecords: 4
+2016-09-12 16:54:01,589 [main] [] |  |  | SocketIOServer               [INFO ] Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2016-09-12 16:54:01,594 [main] [] |  |  | MultithreadEventLoopGroup    [DEBUG] -Dio.netty.eventLoopThreads: 16
+2016-09-12 16:54:01,615 [main] [] |  |  | NioEventLoop                 [DEBUG] -Dio.netty.noKeySetOptimization: false
+2016-09-12 16:54:01,615 [main] [] |  |  | NioEventLoop                 [DEBUG] -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.numHeapArenas: 16
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.numDirectArenas: 16
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.pageSize: 8192
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.maxOrder: 11
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.chunkSize: 16777216
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.tinyCacheSize: 512
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.smallCacheSize: 256
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.normalCacheSize: 64
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2016-09-12 16:54:01,658 [main] [] |  |  | PooledByteBufAllocator       [DEBUG] -Dio.netty.allocator.cacheTrimInterval: 8192
+2016-09-12 16:54:01,670 [main] [] |  |  | ByteBufUtil                  [DEBUG] -Dio.netty.allocator.type: pooled
+2016-09-12 16:54:01,670 [main] [] |  |  | ByteBufUtil                  [DEBUG] -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-12 16:54:01,670 [main] [] |  |  | ByteBufUtil                  [DEBUG] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-12 16:54:01,675 [main] [] |  |  | AbstractByteBuf              [DEBUG] -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-12 16:54:01,686 [main] [] |  |  | ypeParameterMatcherGenerator [DEBUG] Generated: io.netty.util.internal.__matchers__.com.corundumstudio.socketio.messages.PacketsMessageMatcher
+2016-09-12 16:54:01,747 [main] [] |  |  | DefaultChannelId             [DEBUG] -Dio.netty.processId: 52103 (auto-detected)
+2016-09-12 16:54:01,750 [main] [] |  |  | NetUtil                      [DEBUG] Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2016-09-12 16:54:01,751 [main] [] |  |  | NetUtil                      [DEBUG] /proc/sys/net/core/somaxconn: 128 (non-existent)
+2016-09-12 16:54:01,752 [main] [] |  |  | DefaultChannelId             [DEBUG] -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2016-09-12 16:54:01,753 [main] [] |  |  | ThreadLocalRandom            [DEBUG] -Dio.netty.initialSeedUniquifier: 0x436b588aa3998af1 (took 0 ms)
+2016-09-12 16:54:01,783 [nioEventLoopGroup-2-1] [] |  |  | SocketIOServer               [INFO ] SocketIO server started at port: 9092
+2016-09-12 16:54:02,072 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: calendarhandler
+2016-09-12 16:54:02,072 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: checktimeouthandler
+2016-09-12 16:54:02,072 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: codetypehandler
+2016-09-12 16:54:02,072 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: errorCodehandler
+2016-09-12 16:54:02,072 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: remindhandler
+2016-09-12 16:54:02,072 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: sequencehandler
+2016-09-12 16:54:02,072 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: sysparmhandler
+2016-09-12 16:54:02,072 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: basehandler
+2016-09-12 16:54:02,073 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: batchshandler
+2016-09-12 16:54:02,073 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: departmenthandler
+2016-09-12 16:54:02,073 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: functionsethandler
+2016-09-12 16:54:02,073 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: menuhandler
+2016-09-12 16:54:02,073 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: pwdpolicyhandler
+2016-09-12 16:54:02,073 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: rolesethandler
+2016-09-12 16:54:02,073 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: usersethandler
+2016-09-12 16:54:02,073 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: sockethandler
+2016-09-12 16:54:02,073 [main] [] |  |  | PluginManager                [INFO ] Found Plugin Name: captchahandler
+2016-09-12 16:54:02,148 [main] [] |  |  | CapNamedJdbcTemplate         [TRACE] SqlId=batchJob.findPage
+	select * from BAH_JOB 
+2016-09-12 16:54:02,158 [main] [] |  |  | CapNamedJdbcTemplate         [INFO ] CapNamedJdbcTemplate spend 9 ms
+2016-09-12 16:54:02,159 [main] [] |  |  | HibernateJpaDialect          [WARN ] JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+2016-09-12 16:54:03,231 [scheduledExecutorFactoryBean-1] [] |  |  | SQL                          [DEBUG] 
+    select
+        s.* 
+    from
+        CFG_remind r 
+    inner join
+        CFG_reminds s 
+            on r.oid = s.pid 
+    where
+        datediff('SECOND', current timestamp, r.STARTDATE) < s.STYLE*s.unit+30 
+        and datediff('SECOND', current timestamp, r.STARTDATE) >= s.STYLE*s.unit 
+        and s.YNFLAG = '0' 
+        and s.STYLETYP in (
+            ?, ?
+        ) 
+        and r.LOCALE = ?
+2016-09-12 16:54:03,390 [scheduledExecutorFactoryBean-1] [] |  |  | SqlExceptionHelper           [ERROR] 接近關鍵字 'current' 之處的語法不正確。
+2016-09-12 16:54:03,393 [scheduledExecutorFactoryBean-1] [] |  |  | HibernateJpaDialect          [WARN ] JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+2016-09-12 16:54:03,394 [scheduledExecutorFactoryBean-1] [] |  |  | askUtils$LoggingErrorHandler [ERROR] Unexpected error occurred in scheduled task.
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:147)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:155)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1347)
+	at org.hibernate.Query.getResultList(Query.java:416)
+	at com.iisigroup.cap.base.dao.impl.RemindsDaoImpl.findCurrentRemindItem(RemindsDaoImpl.java:46)
+	at com.iisigroup.cap.websocket.service.impl.RemindServiceImpl.getRemindItems(RemindServiceImpl.java:49)
+	at com.iisigroup.cap.websocket.service.impl.RemindServiceImpl$$FastClassBySpringCGLIB$$dd6f30d0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.iisigroup.cap.websocket.service.impl.RemindServiceImpl$$EnhancerBySpringCGLIB$$16c5738.getRemindItems(<generated>)
+	at com.iisigroup.cap.websocket.timer.CapReminderTimerTask.run(CapReminderTimerTask.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:106)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:79)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2116)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1904)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1880)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:925)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:342)
+	at org.hibernate.loader.Loader.doList(Loader.java:2608)
+	at org.hibernate.loader.Loader.doList(Loader.java:2591)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2423)
+	at org.hibernate.loader.Loader.list(Loader.java:2418)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:335)
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2118)
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:949)
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:143)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1338)
+	... 24 more
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: 接近關鍵字 'current' 之處的語法不正確。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1522)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:404)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:350)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1716)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:285)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:76)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:70)
+	... 38 more

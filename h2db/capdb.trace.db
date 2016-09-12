@@ -1,0 +1,12 @@
+09-12 11:08:25 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "CFG_ERRORCODE" not found; SQL statement:
+select errorcode0_.oid as oid1_2_, errorcode0_.code as code2_2_, errorcode0_.helpURL as helpURL3_2_, errorcode0_.lastModifyBy as lastModi4_2_, errorcode0_.lastModifyTime as lastModi5_2_, errorcode0_.locale as locale6_2_, errorcode0_.message as message7_2_, errorcode0_.sendMon as sendMon8_2_, errorcode0_.severity as severity9_2_, errorcode0_.suggestion as suggest10_2_, errorcode0_.sysId as sysId11_2_ from public.CFG_ErrorCode errorcode0_ where 1=1 order by errorcode0_.code asc limit ? [42102-176]
+09-12 11:40:06 database: close
+java.lang.RuntimeException: log.removeUntil not found: 8 last 5
+	at org.h2.message.DbException.throwInternalError(DbException.java:241)
+	at org.h2.store.PageLog.removeUntil(PageLog.java:750)
+	at org.h2.store.PageLog.removeUntil(PageLog.java:725)
+	at org.h2.store.PageStore.checkpoint(PageStore.java:441)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1298)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.DatabaseCloser.run(DatabaseCloser.java:64)
